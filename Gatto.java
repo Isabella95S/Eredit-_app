@@ -1,7 +1,8 @@
-public class Gatto extends Animale{
+public class Gatto extends Animale {
+
     @Override
-    public String toString(){
-        return "io sono un gatto";
+    public void faiIlVerso(){
+        System.out.println("Ll gatto fa: miao miao! ");
     }
 
 
